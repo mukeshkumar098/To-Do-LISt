@@ -1,0 +1,62 @@
+#todolist {
+    display: flex;
+    padding: 40px;
+}
+
+#savebuttontodo {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#buttontodo {
+    border-radius: 20px;
+}
+
+.fa-bars {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#inputtodo {
+    border-radius: 20px;
+}
+
+.todo {
+    box-shadow: 2px 2px 20px;
+    margin-top: 40px;
+}
+
+.todo h1 {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar {
+    background-color: black;
+    color: black;
+}
+
+#welcomemsg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    /* z-index: 1000; */
+}
+
+.dash {
+    display: none;
+}
